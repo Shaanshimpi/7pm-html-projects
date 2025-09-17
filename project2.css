@@ -1,0 +1,30 @@
+body{
+    background: #eafaf1;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    
+    color: #00ad6a;
+    padding: 50px 200px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav > a{
+    color: #00ad6a;
+    text-decoration: none;
+}
+
+nav > a > button{
+    padding: 10px 15px;
+    background: transparent;
+    border: 2px solid #00ad6a;
+    color: #00ad6a;
+    font-weight: 900;
+}
